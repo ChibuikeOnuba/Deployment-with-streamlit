@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle as pk
-from sklearn.preprocessing import StandardScaler
-scaler = StandardScaler()
+
 
 #importing the knn model
 pickle1 = open('knn.pkl', 'rb')
